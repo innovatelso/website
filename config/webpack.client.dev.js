@@ -48,7 +48,17 @@ const config = {
             //     "../src/assets/images/logoblack.png"
             // )
         })
-    ]
+    ],
+
+    devtool: "cheap-module-source-map",
+
+    stats: {
+        assets: true,
+        modules: false,
+        hash: false,
+        version: false,
+        colors: true
+    }
 };
 
 module.exports = merge(baseConfig, config);

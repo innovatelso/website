@@ -1,5 +1,6 @@
-import React from 'react';
-import { renderRoutes } from 'react-router-config'
+import React from "react";
+import { renderRoutes } from "react-router-config";
+import Sidebar from "react-sidebar";
 
 import Header from "../components/Header";
 
@@ -7,11 +8,11 @@ const App = ({ route }) => {
     return (
         <div>
             <Header />
-            { renderRoutes(route.routes)}
+            {renderRoutes(route.routes)}
         </div>
-    )
-}
+    );
+};
 
 export default {
     component: App
-}
+};
