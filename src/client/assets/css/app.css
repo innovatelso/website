@@ -1,0 +1,6 @@
+.heading {
+    @apply text-green;
+}
+
+@tailwind preflight;
+@tailwind utilities;
