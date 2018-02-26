@@ -1,5 +1,5 @@
-.heading {
-    @apply text-green;
+.react-tabs__tab--selected {
+    @apply text-purple underline;
 }
 
 @tailwind preflight;

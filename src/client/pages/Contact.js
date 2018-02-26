@@ -7,9 +7,9 @@ const Contact = () => (
         <h1 className="text-2xl text-purple my-4">Contact</h1>
 
         <Tabs>
-            <TabList>
-                <Tab>Barbados</Tab>
-                <Tab>London</Tab>
+            <TabList className="list-reset flex">
+                <Tab className="flex-1">Barbados</Tab>
+                <Tab className="flex-1">London</Tab>
             </TabList>
             <TabPanel>
                 <div>
