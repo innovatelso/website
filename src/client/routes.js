@@ -21,10 +21,6 @@ export default [
                 exact: true
             },
             {
-                ...AboutPage,
-                path: "/about"
-            },
-            {
                 ...LegalSolutionsPage,
                 path: "/legal-solutions"
             },

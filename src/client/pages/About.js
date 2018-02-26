@@ -6,10 +6,16 @@ const About = () => (
         <h1 className="text-2xl text-purple my-4">About</h1>
         <div>
             <p className="my-4">
-                About text
+                For international firms with global focus looking at new or
+                existing jurisdictions to conduct business, service existing
+                clients or just needing a fresh approach.
             </p>
 
-            <p className="my-4">about text 2</p>
+            <p className="my-4">
+                Innovate LSO oãers a wealth of experience via an extensive panel
+                of preferred suppliers supervised by an internationally
+                experienced management team. A global outreach on your doorstep.
+            </p>
         </div>
     </Layout>
 );
