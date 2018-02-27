@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import CloseIcon from '../../assets/icons/close.svg'
+
 export default ({ onSetSidebarOpen }) => {
     return (
         <div className="flex w-full h-full text-white bg-purple text-2xl">
@@ -62,8 +64,10 @@ export default ({ onSetSidebarOpen }) => {
                     </li>
                 </ul>
             </div>
-            <div className="flex-1 p-8 text-right">
-                <button onClick={() => onSetSidebarOpen(false)}>close</button>
+            <div className="flex-1 p-4 text-right">
+                <button onClick={() => onSetSidebarOpen(false)} className="w-16 h-16">
+                    <img src={CloseIcon} alt="Close" />
+                </button>
             </div>
         </div>
     );

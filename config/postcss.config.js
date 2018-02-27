@@ -5,6 +5,7 @@ module.exports = {
     plugins: [
         tailwindcss("./config/tailwind.config.js"),
         require("postcss-cssnext"),
+        require("precss")
         (!isDev) ? require("cssnano") : ''
     ]
 };
