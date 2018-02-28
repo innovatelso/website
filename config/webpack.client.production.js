@@ -43,7 +43,7 @@ const config = {
 
     plugins: [
         new webpack.optimize.ModuleConcatenationPlugin(),
-        new ExtractTextPlugin("../css/app.css"),
+        new ExtractTextPlugin("/css/app.css"),
         new PurgecssPlugin({
             paths: glob.sync([path.join(__dirname, "../src/**/*.js")]),
             extractors: [

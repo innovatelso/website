@@ -14,26 +14,6 @@ module.exports = {
                     ],
                     plugins: ["transform-object-rest-spread"]
                 }
-            },
-            {
-                test: /\.(png|jpg|gif|svg)$/,
-                use: [
-                    {
-                        loader: "file-loader"
-                    }
-                ]
-            },
-            {
-                test: /\.(otf)$/,
-                use: [
-                    {
-                        loader: "file-loader",
-                        options: {
-                            name: "[name].[hash].[ext]",
-                            outputPath: "../fonts/"
-                        }
-                    }
-                ]
             }
         ]
     }

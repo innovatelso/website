@@ -1,11 +1,24 @@
-@import "./typeface.css";
+/* @import "./typeface.css"; */
+
+// Regular 
+@font-face {
+    font-family: Gilroy;
+    src: url("../fonts/Gilroy-Regular.woff") format('woff');
+}
+
+// Bold
+/* @font-face {
+    font-family: "Gilroy";
+    src:url("../fonts/Gilroy-Bold.otf");
+} */
+
 
 .react-tabs__tab--selected {
     @apply text-purple underline;
 }
 
 body {
-    font-family: "Gilroy", "Helvetica", sans-serif;
+    font-family: Gilroy;
 }
 
 @tailwind preflight;

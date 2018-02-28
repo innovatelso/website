@@ -1,14 +1,13 @@
-
 // Regular 
 @font-face {
     font-family: "Gilroy";
     font-weight: 400;
-    src: local("☺"), url("/fonts/Gilroy-Regular.otf") format("truetype");
+    src: local("☺"), url("../fonts/Gilroy-Regular.otf") format("truetype");
 }
 
 // Bold
 @font-face {
     font-family: "Gilroy";
     font-weight: 700;
-    src: local("☺"), url("/fonts/Gilroy-Bold.otf") format("truetype");
+    src: local("☺"), url("../fonts/Gilroy-Bold.otf") format("truetype");
 }

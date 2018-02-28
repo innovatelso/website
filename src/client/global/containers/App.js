@@ -33,7 +33,7 @@ class App extends Component {
                     pullRight={true}
                     open={this.state.sidebarOpen}
                     onSetOpen={this.onSetSidebarOpen}
-                    sidebarClassName={"w-full"}
+                    sidebarClassName={"w-full lg:w-1/4"}
                 >
                     <Header onSetSidebarOpen={this.onSetSidebarOpen} />
                     {renderRoutes(this.props.route.routes)}

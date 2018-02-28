@@ -16,7 +16,8 @@ const config = {
     // that is generated
     output: {
         filename: "bundle.js",
-        path: path.resolve(__dirname, "../build")
+        path: path.resolve(__dirname, "../build"),
+        publicPath: "/"
     },
 
     // Modules / Rules
@@ -37,6 +38,32 @@ const config = {
                             config: {
                                 path: "./config/postcss.config.js"
                             }
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.(png|jpg|gif|svg)$/,
+                use: [
+                    {
+                        loader: "file-loader",
+                        options: {
+                            name: "[name].[ext]",
+                            outputPath: "./assets/images/",
+                            publicPath: "/assets/images"
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.(otf|woff)$/,
+                use: [
+                    {
+                        loader: "file-loader",
+                        options: {
+                            name: "[name].[ext]",
+                            outputPath: "./assets/fonts/",
+                            publicPath: "/assets/fonts"
                         }
                     }
                 ]
