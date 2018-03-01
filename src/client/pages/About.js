@@ -4,7 +4,7 @@ import Layout from "../global/components/Layout";
 const About = () => (
     <Layout>
         <h1 className="h1">About</h1>
-        <div>
+        <div className="something">
             <p className="my-4">
                 For international firms with global focus looking at new or
                 existing jurisdictions to conduct business, service existing
@@ -16,6 +16,9 @@ const About = () => (
                 of preferred suppliers supervised by an internationally
                 experienced management team. A global outreach on your doorstep.
             </p>
+        </div>
+        <div>
+            
         </div>
     </Layout>
 );

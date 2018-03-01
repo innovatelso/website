@@ -22,5 +22,11 @@ body {
     @apply .text-2xl .text-purple .mb-4 .font-medium;
 }
 
+@responsive {
+    .display-none {
+        display: none;
+    }
+}
+
 @tailwind preflight;
 @tailwind utilities;
