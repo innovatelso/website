@@ -17,6 +17,7 @@
     "dependencies": {
         "dotenv": "^5.0.0",
         "express": "^4.16.2",
+        "fontface-loader": "0.0.8",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
         "react-helmet": "^5.2.0",

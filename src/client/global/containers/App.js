@@ -5,6 +5,8 @@ import Sidebar from "react-sidebar";
 import Header from "../components/Header";
 import SideBarContent from "../components/Sidebar";
 
+import '../../assets/css/app.css';
+
 class App extends Component {
     constructor(props) {
         super(props);

@@ -30,7 +30,11 @@ const config = {
                 ]
             },
             {
-                test: /\.(otf|woff)$/,
+                test: /^(?!.*\.generated\.(ttf|eot|woff|woff2|otf)$).*\.(ttf|eot|woff|woff2|otf)$/,
+                use: ['css-loader', 'fontface-loader'],
+            },
+            {
+                test: /\.generated.(ttf|eot|woff|woff2|otf)$/,
                 use: [
                     {
                         loader: "file-loader",
