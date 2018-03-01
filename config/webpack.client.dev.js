@@ -2,11 +2,14 @@ const path = require("path");
 const webpack = require("webpack");
 const merge = require("webpack-merge");
 const WebpackNotifier = require("webpack-notifier");
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const baseConfig = require("./webpack.client.base.js");
 
 delete baseConfig.entry;
 
+
+console.log("path...", path.resolve(__filename));
 const config = {
     entry: [
         "webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000",
@@ -38,6 +41,9 @@ const config = {
     },
 
     plugins: [
+        new CleanWebpackPlugin(["public"], {
+            root: path.join(__dirname, '..')
+        }),
         new webpack.HotModuleReplacementPlugin(),
         new WebpackNotifier({
             title: "SSR-BOILERPLATE",
