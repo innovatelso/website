@@ -8,21 +8,29 @@ const Contact = () => (
 
         <Tabs>
             <TabList className="list-reset flex">
-                <Tab className="flex-1">Barbados</Tab>
-                <Tab className="flex-1">London</Tab>
+                <Tab className="mr-4">Barbados</Tab>
+                <Tab className="mr-4">London</Tab>
             </TabList>
             <TabPanel>
                 <div>
-                    <p className="my-4">Barbs</p>
+                    <p className="my-4">One Welches&#10;<br/>St Thomas Barbados&#10;</p>
 
-                    <p className="my-4">about text 2</p>
+                    <p className="my-4">
+                        Julia Hope, CEO<br/>
+                        <a className="text-black no-underline" href="tel:+12465374171">+1 246 537 4171</a><br/>
+                        <a className="text-black underline" href="mailto:jtaggart@innovatelso.com">jtaggart@innovatelso.com</a>
+                    </p>
                 </div>
             </TabPanel>
             <TabPanel>
                 <div>
-                    <p className="my-4">London</p>
+                    <p className="my-4">6 Snow Hill&#10;<br />London EC1A 2AY&#10;</p>
 
-                    <p className="my-4">about text 2</p>
+                    <p className="my-4">
+                        Alex Morris<br />
+                        <a className="text-black no-underline" href="tel:+442070027715">+44 207 002 7715</a><br />
+                        <a className="text-black underline" href="mailto:am@financialrelationships.co.uk">am@financialrelationships.co.uk</a>
+                    </p>
                 </div>
             </TabPanel>
         </Tabs>

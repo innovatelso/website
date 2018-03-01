@@ -3,7 +3,7 @@ import Layout from "../global/components/Layout";
 
 const LegalSolutions = () => (
     <Layout>
-        <h1 className="text-2xl text-purple my-4">Legal Solutions</h1>
+        <h1 className="h1">Legal Solutions</h1>
         <div>
             <p className="my-4">
                 As a Barbados licensed Corporate Services Provider, Innovate LSO

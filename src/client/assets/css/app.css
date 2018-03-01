@@ -1,11 +1,25 @@
 @import "./typeface.css";
 
+.react-tabs__tab{
+    @apply .mr-4;
+
+    &:hover {
+        @apply .underline .text-purple; 
+    }
+}
+
 .react-tabs__tab--selected {
     @apply text-purple underline;
 }
 
 body {
     font-family: "Gilroy";
+    @apply .text-xl;
+}
+
+.h1 {
+    font-family: "Gilroy";
+    @apply .text-2xl .text-purple .mb-4 .font-medium;
 }
 
 @tailwind preflight;

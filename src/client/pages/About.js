@@ -3,7 +3,7 @@ import Layout from "../global/components/Layout";
 
 const About = () => (
     <Layout>
-        <h1 className="text-2xl text-purple my-4">About</h1>
+        <h1 className="h1">About</h1>
         <div>
             <p className="my-4">
                 For international firms with global focus looking at new or
