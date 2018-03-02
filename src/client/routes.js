@@ -1,4 +1,5 @@
 import React from "react";
+import { Redirect } from 'react-router';
 
 import App from "../client/global/containers/App";
 import HomePage from "./pages/Home";
@@ -19,6 +20,10 @@ export default [
                 ...AboutPage,
                 path: "/",
                 exact: true
+            },
+            {
+                component: () => <Redirect to="/"/>,
+                path: "/about",
             },
             {
                 ...LegalSolutionsPage,

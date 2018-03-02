@@ -7,7 +7,7 @@ export default ({ onSetSidebarOpen }) => {
     return (
         <div className="flex w-full h-full text-white bg-purple text-2xl">
             <div className="flex-3">
-                <ul className="list-reset p-8">
+                <ul className="list-reset p-8 md:ml-8">
                     <li className="pb-8">
                         <Link
                             onClick={() => onSetSidebarOpen(false)}
