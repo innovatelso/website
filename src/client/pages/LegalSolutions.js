@@ -4,7 +4,7 @@ import Layout from "../global/components/Layout";
 const LegalSolutions = () => (
     <Layout>
         <h1 className="h1">Legal Solutions</h1>
-        <div>
+        <div className="md:w-2/3">
             <p className="my-4">
                 As a Barbados licensed Corporate Services Provider, Innovate LSO
                 provides international business solutions, including formation,

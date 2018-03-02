@@ -4,9 +4,9 @@ import Layout from "../global/components/Layout";
 
 const Contact = () => (
     <Layout>
-        <h1 className="text-2xl text-purple my-4">Contact</h1>
+        <h1 className="text-2xl text-purple my-4 md:display-none">Contact</h1>
 
-        <Tabs>
+        <Tabs className="md:flex md:flex-col-reverse">
             <TabList className="list-reset flex">
                 <Tab className="mr-4">Barbados</Tab>
                 <Tab className="mr-4">London</Tab>

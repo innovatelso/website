@@ -12,7 +12,7 @@ module.exports = {
                         "react",
                         ["env", { targets: { browsers: ["last 2 versions"] } }]
                     ],
-                    plugins: ["transform-object-rest-spread"]
+                    plugins: ["transform-object-rest-spread", "transform-class-properties"]
                 }
             }
         ]
