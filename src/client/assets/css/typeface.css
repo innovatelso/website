@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Gilroy";
     font-weight: 400;
-    src: local("☺"), url("../fonts/Gilroy-Regular.otf") format("opentype");
+    src: local("☺"), url("../fonts/Gilroy-Regular.otf.generated.woff2");
 }
 
 @font-face {
     font-family: "Gilroy";
     font-weight: 500;
-    src: local("☺"), url("../fonts/Gilroy-Medium.otf") format("opentype");
+    src: local("☺"), url("../fonts/Gilroy-Medium.otf.generated.woff2") format("opentype");
 }
