@@ -1,4 +1,4 @@
-var isDev = require("isDev");
+var isDev = require("isdev");
 var tailwindcss = require("tailwindcss");
 
 // const cssnano = (!isDev) ? require("cssnano") : '';

@@ -5,7 +5,7 @@ import webpack from "webpack";
 import webpackDevMiddleware from "webpack-dev-middleware";
 import webpackHotMiddleware from "webpack-hot-middleware";
 import { matchRoutes } from "react-router-config";
-import isDev from "isDev";
+import isDev from "isdev";
 
 /* Local Imports
 ---------------------------------------------------- */

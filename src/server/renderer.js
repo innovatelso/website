@@ -5,7 +5,7 @@ import { renderToString } from "react-dom/server";
 import { StaticRouter } from "react-router-dom";
 import { renderRoutes } from "react-router-config";
 import { Helmet } from "react-helmet";
-import isDev from "isDev";
+import isDev from "isdev";
 
 /* Local Imports
 ---------------------------------------------------- */
