@@ -47,6 +47,12 @@ const config = {
                 ]
             }
         ]
+    },
+    resolve: {
+        modules: [
+            'src',
+            'node_modules'
+        ]
     }
 };
 
