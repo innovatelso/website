@@ -8,8 +8,6 @@ const baseConfig = require("./webpack.client.base.js");
 
 delete baseConfig.entry;
 
-
-console.log("path...", path.resolve(__filename));
 const config = {
     entry: [
         "webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000",
