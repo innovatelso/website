@@ -14,13 +14,13 @@ import webpackConfig from "../config/webpack.client.dev";
 import config from "../config/application.config.js";
 import renderer from "./server/renderer";
 
-const compiler = webpack(webpackConfig);
 const PORT = config.get("port");
 const app = express();
 
 app.use(express.static("public"));
 
 if (isDev) {
+    const compiler = webpack(webpackConfig);
     app.use(
         webpackDevMiddleware(compiler, {
             hot: true,
