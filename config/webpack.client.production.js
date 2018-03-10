@@ -20,6 +20,7 @@ const config = {
             {
                 test: /\.css$/,
                 use: ExtractTextPlugin.extract({
+                    fallback: "style-loader",
                     use: [
                         {
                             loader: "css-loader",
@@ -46,6 +47,7 @@ const config = {
         new ExtractTextPlugin("/css/app.css"),
         new PurgecssPlugin({
             paths: glob.sync([path.join(__dirname, "../src/**/*.js")]),
+            whitelistPatterns: [/react-tabs.*$/],
             extractors: [
                 {
                     extractor: TailwindExtractor,

@@ -44,7 +44,7 @@ const config = {
         }),
         new webpack.HotModuleReplacementPlugin(),
         new WebpackNotifier({
-            title: "SSR-BOILERPLATE",
+            title: "InnovateLSO",
             excludeWarnings: true,
             alwaysNotify: false
             // contentImage: path.join(
