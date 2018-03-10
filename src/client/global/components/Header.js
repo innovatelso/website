@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Sidebar from "react-sidebar";
 
 import SideBarContent from "./Sidebar";
 import MenuIcon from '../../assets/icons/menu.svg'
 import LogoFull from "../../assets/images/logo-full.svg";
 
 
-export default ({ onSetSidebarOpen }) => {
+export default ({ setSidebarOpenState }) => {
     return (
-        <nav className="flex items-center justify-between flex-wrap bg-white my-4 mx-2 md:mx-10">
+        <nav className="flex items-center justify-between flex-wrap bg-white py-4 mx-2 md:mx-10">
             {/* Purpe Circle */}
             <div className="flex items-center flex-no-shrink text-white">
                 <img src={LogoFull} alt="Logo" className="display-none md:block lg:block md:visible lg:visible w-64 h-full" />
@@ -19,7 +18,7 @@ export default ({ onSetSidebarOpen }) => {
             {/* Menu */}
             <div className="block lg:mr-6">
                 <button
-                    onClick={() => onSetSidebarOpen(true)}
+                    onClick={() => setSidebarOpenState(true) }
                     className="flex items-center text-purple block"
                 >
                 <img src={MenuIcon} alt="Menu" className="w-16"/>
