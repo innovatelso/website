@@ -4,6 +4,7 @@ import Sidebar from "react-sidebar";
 
 import Header from "../components/Header";
 import SideBarContent from "../components/Sidebar";
+import SidebarStyles from '../components/SidebarStyles';
 
 import '../../assets/css/app.css';
 
@@ -36,6 +37,7 @@ class App extends Component {
                     open={this.state.sidebarOpen}
                     onSetOpen={this.onSetSidebarOpen}
                     sidebarClassName={"w-full md:w-1/3"}
+                    styles={SidebarStyles}
                 >
                     <Header onSetSidebarOpen={this.onSetSidebarOpen} />
                     {renderRoutes(this.props.route.routes)}
