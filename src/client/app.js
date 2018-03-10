@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import { renderRoutes } from "react-router-config";
+import isDev from 'isdev';
 
 import routes from "./routes";
 import "./assets/css/app.css";
@@ -13,6 +14,8 @@ ReactDOM.hydrate(
     document.querySelector("#root")
 );
 
-if (module.hot) {
-    module.hot.accept();
+if (isDev) {
+    if (module.hot) {
+        module.hot.accept();
+    }
 }
