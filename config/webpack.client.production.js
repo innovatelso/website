@@ -47,7 +47,10 @@ const config = {
         new ExtractTextPlugin("/css/app.css"),
         new PurgecssPlugin({
             paths: glob.sync([path.join(__dirname, "../src/**/*.js")]),
-            whitelistPatterns: [/react-tabs.*$/],
+            whitelistPatterns: [
+                /react-tabs.*$/,
+                /bm-morph-shape.*$/
+            ],
             extractors: [
                 {
                     extractor: TailwindExtractor,
