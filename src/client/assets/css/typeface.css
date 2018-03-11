@@ -6,6 +6,6 @@
 
 @font-face {
     font-family: "Gilroy";
-    font-weight: 500;
-    src: local("☺"), url("../fonts/Gilroy-Medium.otf.generated.woff2");
+    font-weight: bold;
+    src: local("☺"), url("../fonts/Gilroy-Bold.otf.generated.woff2");
 }

@@ -11,7 +11,7 @@ class App extends Component {
         super(props)
 
         this.state = {
-            isSidebarOpen: true
+            isSidebarOpen: false
         }
 
         this.setSidebarOpenState = this.setSidebarOpenState.bind(this);
