@@ -1,18 +1,20 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { slide as Menu } from 'react-burger-menu';
+import { bubble as Menu } from 'react-burger-menu';
 
 import CloseIcon from '../../assets/icons/close.svg';
+
 
 export default ({ isOpen, setSidebarOpenState }) => {
     return (
         <Menu
             noOverlay
-            isOpen={ isOpen }
+            isOpen={isOpen}
             pageWrapId={"page-wrap"}
             outerContainerId={"outer-container"}
             right
             customBurgerIcon={false}
+            width={"375px"}
         >
             <div className="w-full h-full">
                 <div className="flex w-full h-full text-white bg-purple text-2xl">

@@ -1,6 +1,8 @@
 @import "./typeface.css";
 @import "./sidebar.css";
 
+$purple: #553080;
+
 .react-tabs__tab{
     @apply .mr-4;
 
@@ -11,6 +13,10 @@
 
 .react-tabs__tab--selected {
     @apply text-purple underline;
+}
+
+.bm-morph-shape {
+  fill: $purple;
 }
 
 body {
