@@ -8,8 +8,8 @@ const Contact = () => (
 
         <Tabs className="md:flex md:flex-col-reverse">
             <TabList className="list-reset flex">
-                <Tab className="mr-4">Barbados</Tab>
-                <Tab className="mr-4">London</Tab>
+                <Tab className="mr-4 react-tabs__tab">Barbados</Tab>
+                <Tab className="mr-4 react-tabs__tab">London</Tab>
             </TabList>
             <TabPanel>
                 <div>

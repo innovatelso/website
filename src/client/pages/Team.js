@@ -11,9 +11,9 @@ const Team = () => (
         <Tabs className="md:flex md:flex-row-reverse">
             <div className="md:w-1/3 md:flex md:justify-end md:items-center">
                 <TabList className="list-reset flex flex-row mb-6 md:flex-col items-end">
-                    <Tab className="mr-4 md:mb-4">Julia <span className="display-none md:inline">Hope</span></Tab>
-                    <Tab className="mr-4 md:mb-4">Alex <span className="display-none md:inline">Morris</span></Tab>
-                    <Tab className="mr-4 md:mb-4">Alistair <span className="display-none md:inline">Peat</span></Tab>
+                    <Tab className="react-tabs__tab mr-4 md:mb-4">Julia <span className="display-none md:inline">Hope</span></Tab>
+                    <Tab className="react-tabs__tab mr-4 md:mb-4">Alex <span className="display-none md:inline">Morris</span></Tab>
+                    <Tab className="react-tabs__tab mr-4 md:mb-4">Alistair <span className="display-none md:inline">Peat</span></Tab>
                 </TabList>
             </div>
             <div className="md:w-2/3">

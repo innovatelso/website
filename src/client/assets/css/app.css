@@ -7,7 +7,7 @@ $purple: #553080;
     @apply .mr-4;
 
     &:hover {
-        @apply .underline .text-purple; 
+        @apply .text-purple .underline .font-bold .cursor-pointer;
     }
 }
 
