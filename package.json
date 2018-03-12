@@ -26,6 +26,7 @@
         "react-helmet": "^5.2.0",
         "react-router-config": "^1.0.0-beta.4",
         "react-router-dom": "^4.2.2",
+        "react-stickynode": "^1.4.1",
         "react-tabs": "^2.2.1"
     },
     "devDependencies": {

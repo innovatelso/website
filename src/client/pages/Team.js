@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import Sticky from 'react-stickynode';
+
 import Layout from "../global/components/Layout";
 
 import Julia from '../assets/images/julia.jpg';
@@ -14,15 +16,15 @@ class Team extends Component {
         this.state = { tabIndex: 0 };
     }
 
-    renderTeamImage(){
-        if(this.state.tabIndex === 0) {
+    renderTeamImage() {
+        if (this.state.tabIndex === 0) {
             return <DesktopTeamImage image={Julia} />
         }
-        if(this.state.tabIndex === 1) {
+        if (this.state.tabIndex === 1) {
             return <DesktopTeamImage image={Alex} />
         }
 
-        if(this.state.tabIndex === 2) {
+        if (this.state.tabIndex === 2) {
             return <DesktopTeamImage image={Alistair} />
         }
     }
@@ -31,13 +33,17 @@ class Team extends Component {
         return (
             <Layout pin={false}>
                 <Tabs selectedIndex={this.state.tabIndex} onSelect={tabIndex => this.setState({ tabIndex })} className="h-full md:flex md:flex-row-reverse">
-                    <div className="md:w-1/3 md:flex md:flex-col md:justify-start md:items-center">
-                        { this.renderTeamImage() }
-                        <TabList className="list-reset flex flex-row mb-6 md:flex-col items-end">
-                            <Tab className="react-tabs__tab mr-4 md:mb-4">Julia <span className="display-none md:inline">Hope</span></Tab>
-                            <Tab className="react-tabs__tab mr-4 md:mb-4">Alex <span className="display-none md:inline">Morris</span></Tab>
-                            <Tab className="react-tabs__tab mr-4 md:mb-4">Alistair <span className="display-none md:inline">Peat</span></Tab>
-                        </TabList>
+                    <div className="md:w-1/3">
+                        <Sticky enabled={true} top={50} bottomBoundary={1200}>
+                            <div className="md:flex md:flex-col md:justify-start md:items-center">
+                                {this.renderTeamImage()}
+                                <TabList className="list-reset flex flex-row mb-6 md:flex-col items-end">
+                                    <Tab className="react-tabs__tab mr-4 md:mb-4">Julia <span className="display-none md:inline">Hope</span></Tab>
+                                    <Tab className="react-tabs__tab mr-4 md:mb-4">Alex <span className="display-none md:inline">Morris</span></Tab>
+                                    <Tab className="react-tabs__tab mr-4 md:mb-4">Alistair <span className="display-none md:inline">Peat</span></Tab>
+                                </TabList>
+                            </div>
+                        </Sticky>
                     </div>
                     <div className="md:w-2/3">
                         <TabPanel>
