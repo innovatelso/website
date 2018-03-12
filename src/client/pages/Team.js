@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Sticky from 'react-stickynode';
+import { isMobile } from 'react-device-detect';
 
 import Layout from "../global/components/Layout";
 
@@ -13,7 +14,9 @@ const DesktopTeamImage = ({ image }) => <img className="h-48 rounded-full mx-aut
 class Team extends Component {
     constructor(props) {
         super(props);
-        this.state = { tabIndex: 0 };
+        this.state = {
+            tabIndex: 0
+        };
     }
 
     renderTeamImage() {
@@ -34,7 +37,7 @@ class Team extends Component {
             <Layout pin={false}>
                 <Tabs selectedIndex={this.state.tabIndex} onSelect={tabIndex => this.setState({ tabIndex })} className="h-full md:flex md:flex-row-reverse">
                     <div className="md:w-1/3">
-                        <Sticky enabled={true} top={50} bottomBoundary={1200}>
+                        <Sticky enabled={ !isMobile } top={50} bottomBoundary={1200}>
                             <div className="md:flex md:flex-col md:justify-start md:items-center">
                                 {this.renderTeamImage()}
                                 <TabList className="list-reset flex flex-row mb-6 md:flex-col items-end">
