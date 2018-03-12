@@ -13,7 +13,7 @@ export default ({ setSidebarOpenState }) => {
             <div className="flex items-center flex-no-shrink text-white">
                 <Link to="/">
                     <img src={LogoFull} alt="Logo" className="display-none md:block lg:block md:visible lg:visible w-64 h-full" />
-                    <div className="visible md:invisible lg:invisible rounded-full h-12 w-12 flex items-center justify-center bg-purple mx-2" />
+                    <div className="visible md:display-none md:invisible rounded-full h-12 w-12 flex items-center justify-center bg-purple mx-2" />
                 </Link>
             </div>
 
