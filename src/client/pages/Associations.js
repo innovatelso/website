@@ -24,7 +24,7 @@ const Associations = () => (
                                 international business in Barbados and companies which are&#10;
                                 otherwise strategically associated with this sector.
                         </p>
-                            <a className="text-black underline" href="http://biba.bb/">http://biba.bb/</a>
+                            <a className="text-black underline" href="http://biba.bb/">www.biba.bb/</a>
                         </div>
                     </TabPanel>
                     <TabPanel className="mb-4">
@@ -40,7 +40,7 @@ const Associations = () => (
                                 and beyond; representing the sector with financial institutions&#10;
                                 and, where relevant, with governments and regulatory bodies.
                     </p>
-                            <a className="text-black underline" href="https://feifa.eu/">https://feifa.eu/</a>
+                            <a className="text-black underline" href="https://feifa.eu/">www.feifa.eu/</a>
                         </div>
                     </TabPanel>
                     <TabPanel className="mb-4">
@@ -56,7 +56,7 @@ const Associations = () => (
                                 community.
                             </p>
                             <a className="text-black underline" href="https://www.linkedin.com/groups/4734745">
-                                https://www.linkedin.com/groups/ 4734745
+                                www.linkedin.com/groups/4734745
                             </a>
                         </div>
                     </TabPanel>

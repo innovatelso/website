@@ -18,7 +18,7 @@ const About = () => (
             </div>
             <div className="md:w-1/3 flex justify-end items-end">
                 <div className="">
-                    <img src={FeifaLogo} className="display-none md:block w-48" />
+                    <img src={FeifaLogo} className="display-none md:block w-32 my-4" />
                 </div>
             </div>
         </div>
