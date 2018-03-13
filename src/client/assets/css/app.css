@@ -21,12 +21,12 @@ $purple: #553080;
 
 body {
     font-family: "Gilroy";
-    @apply .text-xl;
+    @apply .text-3xl;
 }
 
 .h1 {
     font-family: "Gilroy";
-    @apply .text-2xl .text-purple .mb-4 .font-bold;
+    @apply .text-4xl .text-purple .mb-4 .font-bold;
 }
 
 @responsive {

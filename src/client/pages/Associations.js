@@ -9,9 +9,9 @@ const Associations = () => (
             <Tabs className="md:flex md:flex-row-reverse">
                 <div className="md:w-2/3 md:flex md:justify-end">
                     <TabList className="list-reset flex mb-4 md:mb-0 md:flex-col md:items-end md:justify-end">
-                        <Tab className=" react-tabs__tab mr-4 md:mb-4">BIBA</Tab>
-                        <Tab className=" react-tabs__tab mr-4 md:mb-4">FEIFA</Tab>
-                        <Tab className=" react-tabs__tab mr-4 md:mb-4">JV Harmony</Tab>
+                        <Tab className=" react-tabs__tab text-right mr-4 md:mb-4">BIBA</Tab>
+                        <Tab className=" react-tabs__tab text-right mr-4 md:mb-4">FEIFA</Tab>
+                        <Tab className=" react-tabs__tab text-right mr-4 md:mb-4">JV Harmony</Tab>
                     </TabList>
                 </div>
                 <div>

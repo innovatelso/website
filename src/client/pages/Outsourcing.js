@@ -3,7 +3,7 @@ import Layout from "../global/components/Layout";
 
 const Outsourcing = () => (
     <Layout>
-        <h1 className="text-2xl text-purple my-4">Outsourcing</h1>
+        <h1 className="h1 text-purple my-4">Outsourcing</h1>
         <div className="md:w-2/3">
             <p className="my-4">
                 It’s one thing to outsource, it’s another to undertake it
