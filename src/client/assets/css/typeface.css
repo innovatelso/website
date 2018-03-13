@@ -1,11 +1,19 @@
 @font-face {
     font-family: "Gilroy";
     font-weight: 400;
-    src: local("☺"), url("../fonts/Gilroy-Regular.otf.generated.woff2");
+    src: url("../fonts/Gilroy-Regular.otf.generated.eot");
+    src: local("☺"), url("../fonts/Gilroy-Regular.otf.generated.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Gilroy-Regular.otf.generated.woff2") format("woff2"),
+        url("../fonts/Gilroy-Regular.otf.generated.woff") format("woff"),
+        url("../fonts/Gilroy-Regular.otf.generated.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Gilroy";
     font-weight: bold;
-    src: local("☺"), url("../fonts/Gilroy-Bold.otf.generated.woff2");
+    src: url("../fonts/Gilroy-Bold.otf.generated.eot");
+    src: local("☺"), url("../fonts/Gilroy-Bold.otf.generated.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Gilroy-Bold.otf.generated.woff2") format("woff2"),
+        url("../fonts/Gilroy-Bold.otf.generated.woff") format("woff"),
+        url("../fonts/Gilroy-Bold.otf.generated.ttf") format("truetype");
 }
