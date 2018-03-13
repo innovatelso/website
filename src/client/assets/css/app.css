@@ -1,6 +1,11 @@
 @import "./typeface.css";
 @import "./sidebar.css";
 
+$screensm: 576px;
+$screenmd: 768px;
+$screenlg: 992px;
+$screenxl: 1200px;
+
 $purple: #553080;
 
 .react-tabs__tab{
@@ -21,12 +26,20 @@ $purple: #553080;
 
 body {
     font-family: "Gilroy";
-    @apply .text-3xl;
+    @apply .text-xl;
+
+    @media (min-width: $screenmd){
+        @apply .text-3xl;
+    }
 }
 
 .h1 {
     font-family: "Gilroy";
-    @apply .text-4xl .text-purple .mb-4 .font-bold;
+    @apply .text-2xl .text-purple .mb-4 .font-bold;
+
+    @media (min-width: $screenmd){
+        @apply .text-4xl;
+    }
 }
 
 @responsive {

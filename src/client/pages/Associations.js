@@ -17,7 +17,7 @@ const Associations = () => (
                 <div>
                     <TabPanel className="mb-4">
                         <div>
-                            <span className="text-xl">Member, Director and 1st VP</span>
+                            <span>Member, Director and 1st VP</span>
                             <p className="my-4">
                                 The Barbados International Business Association (BIBA) is a&#10;
                                 private sector organization comprising companies engaged in&#10;
@@ -29,7 +29,7 @@ const Associations = () => (
                     </TabPanel>
                     <TabPanel className="mb-4">
                         <div>
-                            <span className="text-xl">Associate Member</span>
+                            <span>Associate Member</span>
                             <p className="my-4">
                                 FEIFA is a trade association that represents English-speaking&#10;
                                 Financial Advisers operating throughout mainland Europe. Whilst&#10;
@@ -45,7 +45,7 @@ const Associations = () => (
                     </TabPanel>
                     <TabPanel className="mb-4">
                         <div>
-                            <span className="text-xl">Barbados Chapter Lead & Member</span>
+                            <span>Barbados Chapter Lead & Member</span>
                             <p className="my-4">
                                 An invitation only professional networking group for like-minded&#10;
                                 business people who provide the highest levels of customer&#10;
