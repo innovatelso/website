@@ -35,7 +35,7 @@ class Team extends Component {
     render() {
         return (
             <Layout pin={false}>
-                <Tabs selectedIndex={this.state.tabIndex} onSelect={tabIndex => this.setState({ tabIndex })} className="h-full md:flex md:flex-row-reverse">
+                <Tabs selectedIndex={this.state.tabIndex} onSelect={tabIndex => this.setState({ tabIndex })} className="h-full md:flex md:flex-row-reverse md:mt-10">
                     <div className="md:w-1/3">
                         <Sticky enabled={ !isMobile } top={50} bottomBoundary={1200}>
                             <div className="md:flex md:flex-col md:justify-start md:items-center">
