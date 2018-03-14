@@ -13,7 +13,7 @@ const About = () => (
                 </p>
 
                 <p className="my-4">
-                    Innovate LSO o&atilde;ers a wealth of experience via an extensive panel&#10;of preferred suppliers supervised by an internationally&#10;experienced management team. A global outreach on your doorstep.
+                    Innovate LSO offers a wealth of experience via an extensive panel&#10;of preferred suppliers supervised by an internationally&#10;experienced management team. A global outreach on your doorstep.
                 </p>
             </div>
             <div className="md:w-1/3 flex justify-end items-end">

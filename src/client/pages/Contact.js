@@ -18,7 +18,7 @@ const Contact = () => (
                     <p className="my-4">
                         Julia Hope, CEO<br/>
                         <a className="text-black no-underline" href="tel:+12465374171">+1 246 537 4171</a><br/>
-                        <a className="text-black underline" href="mailto:jtaggart@innovatelso.com">jtaggart@innovatelso.com</a>
+                        <a className="text-black underline" href="mailto:jhope@innovatelso.com">jhope@innovatelso.com</a>
                     </p>
                 </div>
             </TabPanel>
