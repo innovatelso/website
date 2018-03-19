@@ -46,7 +46,7 @@ export default (req, context) => {
             <link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
             <meta name="msapplication-TileColor" content="#da532c">
             <meta name="theme-color" content="#ffffff">
-            ${helmet.title.toString()}
+            <title>InnovateLSO Solutions</title>
             ${helmet.meta.toString()}
             ${
                 isDev

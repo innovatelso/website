@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "../global/components/Layout";
 
+import Layout from "../global/components/Layout";
 import FeifaLogo from '../assets/images/feifa-logo.png'
 
 const About = () => (
