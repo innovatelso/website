@@ -15,7 +15,7 @@ const Outsourcing = () => (
             <p className="my-4">
                 It also provides an external view into your business with at
                 least a 2nd and 3rd set of eyes on every aspect of your
-                operations, which then extends inwards to all other aspects of
+                operations, which then extends inward to all other aspects of
                 your business. Core areas covered are legal, accountancy and
                 financial.
             </p>
