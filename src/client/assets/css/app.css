@@ -24,6 +24,10 @@ $purple: #553080;
   fill: $purple;
 }
 
+.bm-menu-wrap {
+    max-width: 100%;
+}
+
 body {
     font-family: "Gilroy";
     @apply .text-xl;
