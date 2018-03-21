@@ -23,7 +23,7 @@ export default [
             },
             {
                 component: () => <Redirect to="/"/>,
-                path: "/about",
+                path: "/about-us",
             },
             {
                 ...LegalSolutionsPage,
