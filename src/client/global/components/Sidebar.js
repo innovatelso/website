@@ -32,7 +32,7 @@ export default ({ isOpen, setSidebarOpenState }) => {
                             <li className="pb-8">
                                 <Link
                                     onClick={() => setSidebarOpenState(false)}
-                                    to="legal-solutions"
+                                    to="/legal-solutions"
                                     className="text-white no-underline hover:underline"
                                 >
                                     Legal Solutions
@@ -41,7 +41,7 @@ export default ({ isOpen, setSidebarOpenState }) => {
                             <li className="pb-8">
                                 <Link
                                     onClick={() => setSidebarOpenState(false)}
-                                    to="outsourcing"
+                                    to="/outsourcing"
                                     className="text-white no-underline hover:underline"
                                 >
                                     Outsourcing
@@ -50,7 +50,7 @@ export default ({ isOpen, setSidebarOpenState }) => {
                             <li className="pb-8">
                                 <Link
                                     onClick={() => setSidebarOpenState(false)}
-                                    to="team"
+                                    to="/team"
                                     className="text-white no-underline hover:underline"
                                 >
                                     Team
@@ -59,7 +59,7 @@ export default ({ isOpen, setSidebarOpenState }) => {
                             <li className="pb-8">
                                 <Link
                                     onClick={() => setSidebarOpenState(false)}
-                                    to="associations"
+                                    to="/associations"
                                     className="text-white no-underline hover:underline"
                                 >
                                     Associations
@@ -68,7 +68,7 @@ export default ({ isOpen, setSidebarOpenState }) => {
                             <li className="pb-8">
                                 <Link
                                     onClick={() => setSidebarOpenState(false)}
-                                    to="contact"
+                                    to="/contact"
                                     className="text-white no-underline hover:underline"
                                 >
                                     Contact
