@@ -28,6 +28,26 @@ $purple: #553080;
     max-width: 100%;
 }
 
+.gm-style {
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    z-index: 99;
+    height: 300px;
+    width: 300px;
+    border: 4px solid $purple !important;
+}
+.gm-style iframe {
+    position: absolute;
+    border-radius: 50%;
+    top: 0; left: 0;
+    z-index: 50;
+}
+
+.customMap > div > div:nth-child(1) > div {
+    background-color: white !important;
+}
+
 body {
     font-family: "Gilroy";
     @apply .text-xl;

@@ -8,7 +8,7 @@ export default class Layout extends Component {
 
     render() {
         return (
-            <div className={` mx-4 md:mx-10 md:mb-8 ${(this.props.pin) ? "md:fixed md:pin-b" : ""}`}>
+            <div className={` ${this.props.className} mx-4 md:px-10 md:mx-0 md:mb-8 ${(this.props.pin) ? "md:fixed md:pin-b" : ""}`}>
                 {this.props.children}
             </div>
         );
