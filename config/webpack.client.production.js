@@ -49,7 +49,8 @@ const config = {
             paths: glob.sync([path.join(__dirname, "../src/**/*.js")]),
             whitelistPatterns: [
                 /react-tabs.*$/,
-                /bm-.*$/
+                /bm-.*$/,
+                /gm-style*$/
             ],
             extractors: [
                 {
