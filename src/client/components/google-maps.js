@@ -23,10 +23,13 @@ const Map = compose(
         defaultZoom={16}
         defaultCenter={{ lat: props.lat, lng: props.lng }}
         defaultOptions={{
-            styles: {
-                border: `1px solid black`
-            }
+            disableDefaultUI: false,
+            scrollwheel: false,
+            streetViewControl: false,
+            zoomControl: false,
+            mapTypeControl: false
         }}
+        defaultClickableIcons={false}
     >
         {props.isMarkerShown && (
             <Marker position={{ lat: props.lat, lng: props.lng }} />
