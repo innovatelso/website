@@ -43,7 +43,6 @@ class Team extends Component {
                                 <TabList className="list-reset flex flex-row mb-6 md:flex-col items-end">
                                     <Tab className="react-tabs__tab mr-4 md:mb-4">Julia <span className="display-none md:inline">Hope</span></Tab>
                                     <Tab className="react-tabs__tab mr-4 md:mb-4">Alex <span className="display-none md:inline">Morris</span></Tab>
-                                    <Tab className="react-tabs__tab mr-4 md:mb-4">Alistair <span className="display-none md:inline">Peat</span></Tab>
                                 </TabList>
                             </div>
                         </Sticky>
@@ -71,15 +70,6 @@ class Team extends Component {
                                     For further information on the firm<br />please see<br />
                                     <a className="underline text-black" href="www.financialrelationships.co.uk">www.financialrelationships.co.uk</a>
                                 </p>
-                            </div>
-                        </TabPanel>
-                        <TabPanel>
-                            <div>
-                                <img className="block h-48 rounded-full mx-auto mb-4 md:display-none" src={Alistair} alt="Alistair" />
-                                <h3 className="h1">Head of Africa and Middle East</h3>
-                                <p className="my-4">Alastair has over 25 years experience in end-to-end Supply Chain Management and&#10;Consultancy. After 4 years in the military, he&#10;attended Rhodes University, South Africa&#10;where he graduated with a Business&#10;Economics Degree. In the following years he&#10;added a Chartered Institute of Procurement&#10;and Supply Certification as well as a&#10;Chartered Institute of Logistics and Transport&#10;Certification.</p>
-                                <p className="my-4">Work experience includes international&#10;contracts with Tesco, Sainsbury, Waitrose and&#10;Marks and Spencer. Alastair specializes in&#10;the Fresh Produce Sector but has also vast&#10;experience in the hospitality and catering&#10;environment. Currently he is working on a&#10;Food Waste Project in partnership with the UK&#10;Environmental Agency.</p>
-                                <p className="my-4">He has worked in Value Chain Management&#10;with collaboration in Finance, Marketing,&#10;Operations, Sales, Logistics, Operations&#10;Planning (including manufacturing footprint&#10;and source), Innovation, Process Optimisation,&#10;Procurement, Low Cost Country Sourcing&#10;(LCCS), New Product Development, R&amp;D,&#10;S&amp;OP, Production Planning &amp; Scheduling and&#10;Quality/Safety (EHS). Lean implementation,&#10;development and execution.</p>
                             </div>
                         </TabPanel>
                     </div>
