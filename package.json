@@ -11,7 +11,8 @@
         "build:client": "NODE_ENV=production webpack --config config/webpack.client.production.js -p",
         "build:server": "NODE_ENV=production webpack --config config/webpack.server.js -p",
         "build": "concurrently \"npm run build:client\" \"npm run build:server\"",
-        "start": "NODE_ENV=production node build/bundle.js"
+        "start": "NODE_ENV=production node build/bundle.js",
+        "start:server": "NODE_ENV=production pm2 start build/bundle.js"
     },
     "keywords": [],
     "author": "",
