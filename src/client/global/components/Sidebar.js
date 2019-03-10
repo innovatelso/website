@@ -32,10 +32,10 @@ export default ({ isOpen, setSidebarOpenState }) => {
                             <li className="pb-8">
                                 <Link
                                     onClick={() => setSidebarOpenState(false)}
-                                    to="/legal-solutions"
+                                    to="/global-solutions"
                                     className="text-white no-underline hover:underline"
                                 >
-                                    Legal Solutions
+                                    Global Solutions
                                     </Link>
                             </li>
                             <li className="pb-8">

@@ -27,7 +27,7 @@ export default [
             },
             {
                 ...LegalSolutionsPage,
-                path: "/legal-solutions",
+                path: "/global-solutions",
                 exact: true
             },
             {

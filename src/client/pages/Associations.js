@@ -17,7 +17,7 @@ const Associations = () => (
                 <div>
                     <TabPanel className="mb-4">
                         <div>
-                            <span>Member, Director and 1st VP</span>
+                            <span>Member & President of the Association</span>
                             <p className="my-4">
                                 The Barbados International Business Association (BIBA) is a&#10;
                                 private sector organization comprising companies engaged in&#10;

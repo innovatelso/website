@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "../global/components/Layout";
-import FeifaLogo from '../assets/images/feifa-logo.png'
+import FeifaLogo from '../assets/images/feifa-logo-associates-sept-2018-small.jpg'
 
 const About = () => (
     <Layout>
