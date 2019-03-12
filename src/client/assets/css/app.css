@@ -66,6 +66,15 @@ body {
     }
 }
 
+.h2 {
+    font-family: "Gilroy";
+    @apply .text-2xl .text-purple .mt-8 .mb-4 .font-bold;
+
+    @media (min-width: $screenmd){
+        @apply .text-4xl;
+    }
+}
+
 @responsive {
     .display-none {
         display: none;

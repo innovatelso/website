@@ -1,6 +1,7 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Layout from "../global/components/Layout";
+import FeifaLogo from '../assets/images/feifa-logo-associates-sept-2018-small.jpg'
 
 const Associations = () => (
     <Layout>
@@ -17,30 +18,32 @@ const Associations = () => (
                 <div>
                     <TabPanel className="mb-4">
                         <div>
-                            <span>Member & President of the Association</span>
+                            <span>Member</span>
                             <p className="my-4">
+                                Julia Hope is also the current President of BIBA.
                                 The Barbados International Business Association (BIBA) is a&#10;
                                 private sector organization comprising companies engaged in&#10;
                                 international business in Barbados and companies which are&#10;
                                 otherwise strategically associated with this sector.
                         </p>
-                            <a className="text-black underline" href="http://biba.bb/">www.biba.bb/</a>
+                            <a className="text-black underline" href="http://biba.bb/">www.biba.bb</a>
                         </div>
                     </TabPanel>
                     <TabPanel className="mb-4">
                         <div>
+                            <img src={FeifaLogo} className="display-none md:block w-32 my-4" />
                             <span>Associate Member</span>
                             <p className="my-4">
                                 FEIFA is a trade association that represents English-speaking&#10;
                                 Financial Advisers operating throughout mainland Europe. Whilst&#10;
                                 it exists to assist such businesses and individuals, it also&#10;
                                 aims to increase professional and technical standards of advice&#10;
-                                for the ultimate benefit of consumers. <br /> The Federation&#10;
+                                for the ultimate benefit of consumers. <br /> <br /> The Federation&#10;
                                 provides a strong voice for the adviser community across Europe&#10;
                                 and beyond; representing the sector with financial institutions&#10;
                                 and, where relevant, with governments and regulatory bodies.
                     </p>
-                            <a className="text-black underline" href="https://feifa.eu/">www.feifa.eu/</a>
+                            <a className="text-black underline" href="https://feifa.eu/">www.feifa.eu</a>
                         </div>
                     </TabPanel>
                     <TabPanel className="mb-4">

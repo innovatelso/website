@@ -8,14 +8,17 @@ const Outsourcing = () => (
             <p className="my-4">
                 Looking to purchase a property in the Caribbean? Need a reputable lawyer or accountant? 
                 Need a property management company? Interested in doing business in the Caribbean but do not know where to start? <br />
-                We are here to offer solutions. We work with the best in class professionals and advisors.  
-                We have many years of experience working in the Caribbean and know who to choose and who to avoid! <br />
+            </p>
+            <h2 className="h2">Solutions</h2>
+            <p className="my-4">
+                We are here to offer solutions. We work with the best in class professionals and advisors.
+                We have many years of experience working in the Caribbean and know who to choose and who to avoid! <br /> <br />
                 For companies and individuals with specific outsourcing needs, e.g. accounting, financial or legal services, 
                 we will work with you to provide project based or long term services.
             </p>
+            <h2 className="h2">Special Entry and Reside Permit</h2>
 
             <p className="my-4">
-                Special Entry and Reside Permit <br/>
                 For those individuals who are tired of the cold,
                 wet dreary winters and wish to live in Barbados on a longer term basis there is a solution.
                 The Special Entry and Reside Permit, administered by the Barbados Immigration Department, 
