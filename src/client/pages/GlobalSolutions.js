@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../global/components/Layout";
 
-const LegalSolutions = () => (
+const GlobalSolutions = () => (
     <Layout pin={false} className="md:mt-10">
         <h1 className="h1">Global Solutions</h1>
         <div className="md:w-2/3">
@@ -35,5 +35,5 @@ const LegalSolutions = () => (
 );
 
 export default {
-    component: LegalSolutions
+    component: GlobalSolutions
 };

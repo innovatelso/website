@@ -41,6 +41,15 @@ export default ({ isOpen, setSidebarOpenState }) => {
                             <li className="pb-8">
                                 <Link
                                     onClick={() => setSidebarOpenState(false)}
+                                    to="/legal-outsourcing"
+                                    className="text-white no-underline hover:underline"
+                                >
+                                    Legal Outsourcing
+                                    </Link>
+                            </li>
+                            <li className="pb-8">
+                                <Link
+                                    onClick={() => setSidebarOpenState(false)}
                                     to="/outsourcing"
                                     className="text-white no-underline hover:underline"
                                 >

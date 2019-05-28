@@ -6,7 +6,8 @@ import HomePage from "./pages/Home";
 import NotFoundPage from "./pages/404";
 
 import AboutPage from "./pages/About";
-import LegalSolutionsPage from "./pages/LegalSolutions";
+import GlobalSolutionsPage from "./pages/GlobalSolutions";
+import LegalOutsourcingPage from "./pages/LegalOutsourcing";
 import OutsourcingPage from "./pages/Outsourcing";
 import TeamPage from './pages/Team';
 import AssociationsPage from './pages/Associations';
@@ -26,9 +27,13 @@ export default [
                 path: "/about-us",
             },
             {
-                ...LegalSolutionsPage,
+                ...GlobalSolutionsPage,
                 path: "/global-solutions",
                 exact: true
+            },
+            {
+                ...LegalOutsourcingPage,
+                path: "/legal-outsourcing"
             },
             {
                 ...OutsourcingPage,
