@@ -19,7 +19,7 @@
     "license": "ISC",
     "dependencies": {
         "dotenv": "^5.0.0",
-        "express": "^4.16.2",
+        "express": "^4.17.3",
         "fontface-loader": "0.0.8",
         "react": "^16.2.0",
         "react-burger-menu": "^2.3.0",
